@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(xargs wc -l)",
+      "Bash(wc -l composeApp/src/jvmMain/kotlin/com/example/ai_image_client/*.kt composeApp/src/jvmTest/kotlin/com/example/ai_image_client/*.kt)",
+      "Bash(xargs grep -l \"class.*FavouriteRepository\")",
+      "Bash(xargs -I {} find {} -type d)",
+      "Bash(xargs -I {} basename \"{}\")",
+      "Bash(xargs -I {} find {} -type f)",
+      "Bash(ls \"D:\\\\vse\\\\Desktop\"\" 2>/dev/null; ls \"/c/Users/alkat/Desktop/\" 2>/dev/null; ls \"D:/vse/Desktop \")",
+      "Bash(./gradlew :composeApp:compileKotlinJvm)",
+      "Bash(./mvnw compile -pl web -am -q)",
+      "Bash(./mvnw compile -pl web -am)",
+      "Bash(./mvnw clean compile -pl web -am)",
+      "Bash(./mvnw test -pl web)",
+      "Bash(ls -lh \"/c/Users/alkat/Desktop/ai-img-back\"/*.md)",
+      "Bash(xargs ls -la)",
+      "WebFetch(domain:dev.to)",
+      "WebFetch(domain:kb.stability.ai)",
+      "WebFetch(domain:platform.openai.com)",
+      "WebFetch(domain:community.openai.com)",
+      "WebFetch(domain:help.openai.com)"
+    ]
+  }
+}
